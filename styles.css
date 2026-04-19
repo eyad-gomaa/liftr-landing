@@ -247,11 +247,17 @@ html[data-theme="light"] .nav a.nav-link-cta:hover {
   color: #fff;
 }
 
+.header-end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-inline-start: auto;
+}
+
 .header-tools {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-inline-start: auto;
   padding: 4px;
   border-radius: 14px;
   background: var(--header-nav-pill-bg);
@@ -2336,9 +2342,5 @@ html[dir="rtl"] .legal-item h2 {
     border: 0;
     background: transparent;
     padding: 0;
-  }
-
-  .header-tools {
-    margin-inline-start: 0;
   }
 }
