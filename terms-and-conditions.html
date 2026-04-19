@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("siteTheme");
+          document.documentElement.setAttribute(
+            "data-theme",
+            t === "light" || t === "dark" ? t : "dark"
+          );
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liftr Terms and Conditions</title>
+    <meta
+      name="description"
+      content="Terms and Conditions for Liftr application and landing page."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="legal-page-dark">
+    <header class="site-header legal-header-dark">
+      <div class="container nav-wrap">
+        <a href="./index.html" class="logo" aria-label="Liftr home">
+          <img src="./assets/logo.png" alt="Liftr logo" />
+        </a>
+        <nav class="nav legal-nav">
+          <a href="./index.html" data-i18n="homeLink">Home</a>
+          <a href="./privacy-policy.html" data-i18n="privacyLink">Privacy</a>
+        </nav>
+        <div class="header-tools">
+          <button type="button" class="theme-toggle" aria-label="Toggle light and dark theme">
+            <svg
+              class="icon-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+              />
+            </svg>
+            <svg
+              class="icon-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="legal-main">
+      <div class="container legal-shell">
+        <section class="legal-hero">
+          <p class="legal-badge" data-i18n="termsLabel">Terms &amp; Conditions</p>
+          <h1 data-i18n="termsTitle">Terms &amp; Conditions</h1>
+          <p class="legal-updated" data-i18n="termsUpdated">Last updated: April 2025</p>
+          <p class="hero-text legal-intro" data-i18n="termsSubtitle">
+            Please review these terms carefully before using Liftr services.
+          </p>
+          <button type="button" class="language-toggle legal-language-toggle" aria-label="Toggle language">EN</button>
+        </section>
+
+        <article class="legal-card policy-content" data-lang-content="en" hidden>
+          <section class="legal-item">
+            <h2>Acceptance of Terms <span>1</span></h2>
+            <p>
+              By accessing Liftr services, you agree to these terms and all applicable
+              policies published on our platform.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>Account Responsibility <span>2</span></h2>
+            <p>
+              You are responsible for maintaining account confidentiality and for all
+              activities performed through your account credentials.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>Service Use Rules <span>3</span></h2>
+            <p>
+              You must not use the service for unlawful purposes, abuse platform features,
+              or attempt to bypass security controls.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>Limitation and Contact <span>4</span></h2>
+            <p>
+              Liftr is not liable for indirect losses to the maximum extent permitted by law.
+              For questions, contact test@test.com.
+            </p>
+          </section>
+        </article>
+
+        <article class="legal-card policy-content" data-lang-content="ar">
+          <section class="legal-item">
+            <h2>الموافقة على الشروط <span>1</span></h2>
+            <p>
+              باستخدامك لخدمات ليفتر فإنك توافق على هذه الشروط وعلى السياسات
+              المرتبطة بها والمنشورة على المنصة.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>مسؤولية الحساب <span>2</span></h2>
+            <p>
+              أنت مسؤول عن الحفاظ على سرية بيانات حسابك وعن جميع الأنشطة التي تتم
+              من خلاله.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>قواعد الاستخدام <span>3</span></h2>
+            <p>
+              يجب عدم استخدام المنصة لأي أغراض غير قانونية أو محاولة تعطيل الخدمة
+              أو تجاوز أنظمة الحماية.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>حدود المسؤولية والتواصل <span>4</span></h2>
+            <p>
+              لا تتحمل ليفتر المسؤولية عن الأضرار غير المباشرة في الحدود التي يسمح بها
+              القانون. للاستفسارات تواصل معنا عبر test@test.com.
+            </p>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./theme.js"></script>
+    <script>
+      const languageToggle = document.querySelector(".language-toggle");
+      const contentBlocks = document.querySelectorAll(".policy-content");
+      const i18n = {
+        en: {
+          homeLink: "Home",
+          privacyLink: "Privacy",
+          termsLabel: "Terms & Conditions",
+          termsTitle: "Terms & Conditions",
+          termsUpdated: "Last updated: April 2025",
+          termsSubtitle: "Please review these terms carefully before using Liftr services."
+        },
+        ar: {
+          homeLink: "الرئيسية",
+          privacyLink: "سياسة الخصوصية",
+          termsLabel: "شروط الاستخدام",
+          termsTitle: "الشروط والأحكام",
+          termsUpdated: "آخر تحديث: أبريل 2025",
+          termsSubtitle: "يرجى قراءة هذه الشروط بعناية قبل استخدام خدمات منصة ليفتر."
+        }
+      };
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+        contentBlocks.forEach((block) => {
+          const visible = block.dataset.langContent === lang;
+          block.hidden = !visible;
+        });
+        if (languageToggle) {
+          const nextLang = lang === "ar" ? "en" : "ar";
+          languageToggle.dataset.nextLang = nextLang;
+          languageToggle.textContent = nextLang.toUpperCase();
+        }
+        document.querySelectorAll("[data-i18n]").forEach((node) => {
+          const key = node.dataset.i18n;
+          node.textContent = i18n[lang][key];
+        });
+      }
+
+      if (languageToggle) {
+        languageToggle.addEventListener("click", () => {
+          const nextLang = languageToggle.dataset.nextLang || "en";
+          try {
+            localStorage.setItem("siteLanguage", nextLang);
+          } catch (error) {
+            // ignore storage failures
+          }
+          setLanguage(nextLang);
+        });
+      }
+
+      let initialLang = "ar";
+      try {
+        initialLang = localStorage.getItem("siteLanguage") || "ar";
+      } catch (error) {
+        initialLang = "ar";
+      }
+      setLanguage(initialLang);
+    </script>
+  </body>
+</html>

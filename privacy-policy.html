@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("siteTheme");
+          document.documentElement.setAttribute(
+            "data-theme",
+            t === "light" || t === "dark" ? t : "dark"
+          );
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liftr Privacy Policy</title>
+    <meta
+      name="description"
+      content="Privacy Policy for Liftr application and landing page."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="legal-page-dark">
+    <header class="site-header legal-header-dark">
+      <div class="container nav-wrap">
+        <a href="./index.html" class="logo" aria-label="Liftr home">
+          <img src="./assets/logo.png" alt="Liftr logo" />
+        </a>
+        <nav class="nav legal-nav">
+          <a href="./index.html" data-i18n="homeLink">Home</a>
+          <a href="./terms-and-conditions.html" data-i18n="termsLink">Terms</a>
+        </nav>
+        <div class="header-tools">
+          <button type="button" class="theme-toggle" aria-label="Toggle light and dark theme">
+            <svg
+              class="icon-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+              />
+            </svg>
+            <svg
+              class="icon-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="legal-main">
+      <div class="container legal-shell">
+        <section class="legal-hero">
+          <p class="legal-badge" data-i18n="privacyLabel">Privacy Policy</p>
+          <h1 data-i18n="privacyTitle">Privacy Policy</h1>
+          <p class="legal-updated" data-i18n="privacyUpdated">Last updated: April 2025</p>
+          <p class="hero-text legal-intro" data-i18n="privacySubtitle">
+            Liftr is committed to protecting your personal data. This policy explains how we collect and use your information.
+          </p>
+          <button type="button" class="language-toggle legal-language-toggle" aria-label="Toggle language">EN</button>
+        </section>
+
+        <article class="legal-card policy-content" data-lang-content="en" hidden>
+          <section class="legal-item">
+            <h2>Data We Collect <span>1</span></h2>
+            <p>
+              We collect account and usage data such as your name, phone number, email,
+              profile details, device information, and activity required to operate Liftr.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>How We Use Data <span>2</span></h2>
+            <p>
+              We use your data to provide services, process requests, personalize your
+              experience, send important notifications, and improve platform security.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>Data Sharing <span>3</span></h2>
+            <p>
+              We only share data with trusted service providers when needed to run the app
+              and process payments. We do not sell your personal data.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>Your Rights <span>4</span></h2>
+            <p>
+              You can request data access, correction, deletion, or account removal by
+              contacting us at test@test.com.
+            </p>
+          </section>
+        </article>
+
+        <article class="legal-card policy-content" data-lang-content="ar">
+          <section class="legal-item">
+            <h2>البيانات التي نجمعها <span>1</span></h2>
+            <p>
+              نجمع البيانات التي تقدمها عند التسجيل مثل الاسم ورقم الهاتف والبريد،
+              بالإضافة إلى بيانات الاستخدام والموقع عند الحاجة لتشغيل الخدمة.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>كيف نستخدم بياناتك <span>2</span></h2>
+            <p>
+              نستخدم بياناتك لتقديم خدمات المنصة، التواصل معك بشأن طلباتك، تحسين
+              تجربتك، وإرسال الإشعارات المهمة الخاصة بحسابك.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>مشاركة البيانات <span>3</span></h2>
+            <p>
+              قد نشارك البيانات مع مزودين موثوقين عند الحاجة لتشغيل التطبيق أو
+              معالجة المدفوعات. نحن لا نبيع بياناتك الشخصية.
+            </p>
+          </section>
+          <section class="legal-item">
+            <h2>حقوقك <span>4</span></h2>
+            <p>
+              يمكنك طلب الوصول إلى بياناتك أو تعديلها أو حذفها عبر التواصل معنا
+              على البريد الإلكتروني test@test.com.
+            </p>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script src="./theme.js"></script>
+    <script>
+      const languageToggle = document.querySelector(".language-toggle");
+      const contentBlocks = document.querySelectorAll(".policy-content");
+      const i18n = {
+        en: {
+          homeLink: "Home",
+          termsLink: "Terms",
+          privacyLabel: "Privacy Policy",
+          privacyTitle: "Privacy Policy",
+          privacyUpdated: "Last updated: April 2025",
+          privacySubtitle: "Liftr is committed to protecting your personal data. This policy explains how we collect and use your information."
+        },
+        ar: {
+          homeLink: "الرئيسية",
+          termsLink: "شروط الاستخدام",
+          privacyLabel: "سياسة الخصوصية",
+          privacyTitle: "سياسة الخصوصية",
+          privacyUpdated: "آخر تحديث: أبريل 2025",
+          privacySubtitle: "تلتزم منصة ليفتر بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع معلوماتك واستخدامها وحمايتها."
+        }
+      };
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+        contentBlocks.forEach((block) => {
+          const visible = block.dataset.langContent === lang;
+          block.hidden = !visible;
+        });
+        if (languageToggle) {
+          const nextLang = lang === "ar" ? "en" : "ar";
+          languageToggle.dataset.nextLang = nextLang;
+          languageToggle.textContent = nextLang.toUpperCase();
+        }
+        document.querySelectorAll("[data-i18n]").forEach((node) => {
+          const key = node.dataset.i18n;
+          node.textContent = i18n[lang][key];
+        });
+      }
+
+      if (languageToggle) {
+        languageToggle.addEventListener("click", () => {
+          const nextLang = languageToggle.dataset.nextLang || "en";
+          try {
+            localStorage.setItem("siteLanguage", nextLang);
+          } catch (error) {
+            // ignore storage failures
+          }
+          setLanguage(nextLang);
+        });
+      }
+
+      let initialLang = "ar";
+      try {
+        initialLang = localStorage.getItem("siteLanguage") || "ar";
+      } catch (error) {
+        initialLang = "ar";
+      }
+      setLanguage(initialLang);
+    </script>
+  </body>
+</html>
