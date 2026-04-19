@@ -268,16 +268,25 @@ if (langToggleButtons.length) {
 }
 
 if (menuBtn && navMenu) {
+  const setMenuOpen = (open) => {
+    navMenu.classList.toggle("open", open);
+    menuBtn.classList.toggle("is-open", open);
+    menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+  };
+
+  menuBtn.setAttribute("aria-expanded", "false");
+  menuBtn.setAttribute("aria-controls", "navMenu");
+
   menuBtn.addEventListener("click", () => {
-    navMenu.classList.toggle("open");
+    setMenuOpen(!navMenu.classList.contains("open"));
   });
 
   navMenu.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => navMenu.classList.remove("open"));
+    link.addEventListener("click", () => setMenuOpen(false));
   });
 
   document.querySelectorAll('.footer-nav a[href^="#"]').forEach((link) => {
-    link.addEventListener("click", () => navMenu.classList.remove("open"));
+    link.addEventListener("click", () => setMenuOpen(false));
   });
 }
 
